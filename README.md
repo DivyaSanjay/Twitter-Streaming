@@ -37,12 +37,27 @@ The implemented functionalities are:-
 
 4. Filter_String: This class filters the data stored based on the string columns with sorting.
    It takes 5 arguments.
-   1. string: The column to filter the data by.
+   1. column: The column to filter the data by.
    2. pos: ('ends with', 'contains', 'starts with').
-   3. search_word: The text by which to filter.
+   3. search_text: The text by which to filter.
    4. sort_by: The cloumn by which the data should be sorted.
    5. order: The order in which you want the data to be sorted (ascending/descending).
    
-   eg. 
+   eg. <ip_address>/filter_string/name/contains/a/followers/asc
    
-5. Filter_Date: This class filters the data stored based on the string columns with sorting.
+5. Filter_Date: This class filters the data stored based on a date range with sorting.
+   It takes 4 arguments.
+   1. date1: Starting date
+   2. date2: ending date
+   3. sort_by: The column by which the data should be sorted.
+   4. order: The order in which you want the data to be sorted (ascending/descending).
+   
+   eg. <ip_address>/filter_date/2018-10-04/2018-10-05/friends/desc
+ 
+6. Export_CSV: This class exports the database as a csv file on the local machine.
+   
+   eg. <ip_address>/export_csv
+   
+7. Get_Count: This class returns the total number of tweets stored in the database.
+   
+   eg. <ip_address>/get_count
