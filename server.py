@@ -266,7 +266,7 @@ class Stream_Data(Resource):
     def get(self, hash_tag, count):
         count = int(count)
         try:
-            l = Listenr(twitter_api, count)
+            l = Listener(twitter_api, count)
             twitterStream = Stream(auth, l)
             twitterStream.filter(track=[hash_tag])
             return jsonify({'message':'The required number of tweets for the specified hashtag have been stored!'})
