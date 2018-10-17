@@ -61,3 +61,5 @@ The implemented functionalities are:-
 7. Get_Count: This class returns the total number of tweets stored in the database.
    
    eg. <ip_address>/get_count
+
+NB. I have also completed the assignment for SDE(Applications) profile. The project can be accessed through https://github.com/DivyaSanjay/Medical-API
