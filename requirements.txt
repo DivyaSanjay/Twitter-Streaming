@@ -12,7 +12,7 @@ Flask-RESTful==0.3.6
 idna==2.7
 itsdangerous==0.24
 Jinja2==2.10
-Mako==1.0.7
+Mako==1.2.2
 MarkupSafe==1.0
 normality==0.6.1
 numpy==1.15.2
